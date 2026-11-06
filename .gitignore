@@ -1,0 +1,9 @@
+dist/
+config/
+data/
+.env
+*.env
+__pycache__/
+*.pyc
+node_modules/
+.wrangler/

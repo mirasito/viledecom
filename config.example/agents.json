@@ -1,0 +1,29 @@
+[
+  {
+    "id": "digest",
+    "name": "Дайджест «что произошло»",
+    "status": "active",
+    "description": "Каждое утро собирает данные из Metabase и присылает дайджест в Telegram: хорошо, плохо, с кем поговорить.",
+    "schedule": "ежедневно 8:39 (Алматы) за вчера; пн неделя; 1-го месяц; кварталы, полугодия, год",
+    "channel": "Telegram-бот",
+    "owners": ["Директор e-com"],
+    "sources": ["payment db", "core db", "DWH", "Amplitude", "GA4", "Google / Meta Ads"]
+  },
+  {
+    "id": "data",
+    "name": "Подключение данных",
+    "status": "building",
+    "description": "Новые источники для агентов: колл-центр, план из Power BI, офлайн DWH.",
+    "schedule": "по мере подключения",
+    "channel": "—",
+    "owners": ["CTO"]
+  },
+  {
+    "id": "priorities",
+    "name": "Приоритеты «на что смотреть и с кем говорить»",
+    "status": "planned",
+    "description": "Из отклонений дайджеста строит список задач на день, неделю и месяц и закрепляет их за людьми.",
+    "schedule": "ежедневно после дайджеста",
+    "channel": "Telegram + эта панель"
+  }
+]
